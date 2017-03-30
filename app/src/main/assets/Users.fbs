@@ -1,0 +1,13 @@
+namespace org.kazminov.fbsdemo.model;
+
+table User {
+    name:string;
+    age:int;
+}
+
+
+table Users {
+    users:[User];
+}
+
+root_type Users;
